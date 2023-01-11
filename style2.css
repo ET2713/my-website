@@ -1,0 +1,286 @@
+html, body{
+    font-family: 'Courier';
+    margin:0;
+    padding:0;
+}
+/*navigation*/
+/* Style the links inside the sidenav */
+.container{
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+    
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0%;
+}
+ul{
+    list-style-type: none;
+}
+#nav li a {
+
+    position: absolute; /* Position them relative to the browser window */
+    left: -200px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 12px; /* 15px padding */
+    width: 220px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #nav li a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+  #nav li button{
+    font-family: 'Courier';
+    position: absolute; /* Position them relative to the browser window */
+    left: -175px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 12px; /* 15px padding */
+    width: 220px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 6px;
+    border-style: none;
+    
+   /* border-radius: 0 5vx 5vx 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+  #nav li button:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+    opacity: 0.8;
+  }
+  
+  #port {
+    top: 80px;
+    background-color: #21f3e2; /* Blue */
+    opacity: 0.8;
+  }
+  
+  #qual {
+    top: 140px;
+    background-color: #f44336; /* Red */
+    opacity: 0.8;
+  }
+  
+  #serv {
+    top: 200px;
+    background-color: #555; /* Light Black */
+    opacity: 0.8;
+  }
+
+  #ocean {
+    top: 260px;
+    background-color: rgb(57, 102, 185); 
+    opacity: 0.8;
+  }
+  
+  #desert {
+    top: 320px;
+    background-color: rgb(196, 140, 94);
+    opacity: 0.8;
+  }
+
+
+h1{
+    height: 100;
+    padding-top: 10%;
+    top:0;
+    font-weight:lighter;
+    font-size: 100;
+    display: block;
+    /*background-color: rgba(241, 162, 58, 0.822);*/
+    color: white;
+    margin-bottom:1%;
+    padding-left: 25%;
+    text-align:center;
+}
+.under{
+    padding-top:5%;
+}
+
+h2{
+    margin-top: 0%;
+    color: white;
+    font-size: 30;
+    padding-left: 5%;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 7%;
+}
+
+h3{
+    margin-top: 1%;
+    margin-left:10%;
+}
+
+h4{
+    font-size: 30;
+}
+
+p{
+    margin-left:10%;
+}
+
+.body1{
+    background-color: white;
+    height:100%;
+    width:fit-content;
+    margin-left: 10%;
+    padding-right:2%;
+    margin-bottom:5%;
+    
+}
+
+/*landing page formatting*/
+.landing0 {
+    margin: 0;
+    padding: 0;
+    background-image: url('Landscapes/Desert.jpg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.landing1 a{
+    text-decoration: none;
+    color:white;
+}
+
+.landing1{
+    padding-left: 0%;
+    background-color: transparent;
+    color: white;
+    margin-bottom:4%;
+    margin-left: 3%;
+    padding-bottom:0%;
+    font-size: 80;
+    text-align: center;
+    padding-top:10%;
+    height: 170;
+}
+
+.landing2{
+    color: white;
+    margin-top:0%;
+    padding-top:0%;
+    margin-left: 3%;
+    font-size: 30;
+    text-align: center;
+    height:0;
+    padding-left: 0%;
+}
+
+
+/*landing page footer*/
+footer {
+    position: absolute;
+    bottom:0;
+    right:0;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(196, 140, 94);
+    background-size: cover;
+    padding-right: 10px;
+    
+}
+footer a{
+    font-weight: bold;
+    font-size: 12;
+    border-radius: 12px;
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+/*copyright at bottom of pages*/
+.foot1{
+    background-color: white;
+    text-align: center;
+    bottom:0;
+    position:absolute;
+    height:30px;
+    width:100%;
+}
+
+.foot{
+    background-color: white;
+    text-align: center;
+    bottom:0;
+    position:relative;
+    height:30px;
+    width:100%;
+}
+/*format for logos on landing page*/
+
+.bot li{
+    /*float:right;*/
+    overflow:hidden;
+    padding: 1px 1px;
+    float:right;
+   
+}
+.bot li a{
+    padding: 4px 8px;
+}
+
+.bot li a img:hover{
+    transform: scale(1.2,1.2);
+}
+
+/*resume on qualifications page*/
+.resume{
+    margin-top:2%;
+    margin-left: 30%;
+    position:absolute;
+    height: 50%;
+     
+}
+.column {
+    padding-bottom: 5%;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin-left: 10%; margin-right: 10%; padding-top:2%}
+  
+  /* Clear floats after the columns */
+  /*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+  
+  /* Style the counter cards */
+  .card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+    width:auto;
+    border-color: rgb(196, 140, 94);
+    border-style: double;
+  }
+
+  .intro{
+      width:75%;
+      height: fit-content;
+      background-color: rgba(241, 162, 58, 0.822);
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+  }

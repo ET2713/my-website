@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.csss" id="pagestyle">
+<title>Ethan Ting | Portfolio</title>
+<meta http-equiv="Content-Type" content="tcdext/html; charset=iso-8859-1">
+</head>
+<div class="container">
+    <div class="text">
+
+        <header>
+            <ul class="top" id="nav">
+                <li><a id="about" href="index.html">HOME</a></li>
+                <li><a class="active" id="port" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a id="qual" href="qual.html">QUALIFICATIONS</a></li>
+                <li><a id="serv" href="service.html">SERVICE</a></li>
+                <li><button id="desert" class="button2"  onclick="changeStyle('style2.css')" >DESERT</button></li>
+                <li><button id="ocean" class="button" onclick="changeStyle('style.css')">OCEAN&nbsp</button></li>
+            </ul>
+        </header>
+        
+        <body>
+            <div class="intro">
+                <h1> Portfolio </h1>
+                <h2>Here are some of my technical projects I have done at school</h2>
+            </div>
+            
+            <div class="body1">
+                <div class="row2">
+                    <div class="column2">
+                        <h3 class="under"> <img src="Projects/data.png" width="300" height="200" > <br><a href="https://github.com/ETingRice/File-Transfer-client-and-server">ECG Data Transfer</a></h3>
+                        <p>In my Introduction to Computer Systems class, I created a client and a server program that could communicate over the network. I used C++ on linux to code a server program that could accept and fulfill file and data requests from a client program. After receiving a request from the client, the server could send files or write text into a file and sent it to a client.</p>
+                    </div>
+                    <div class="column2">
+                        
+                        <h3 class="under"> <img src="Projects/datapath.png" width="300" height="200"><br>Single Cycle Processor and Control Unit</h3>
+                        <p>I constructed a simple processor on a raspberry pi in my Computer Architecture class. I used ARM assembly language to code all of the different components such as the controller, register file, and data memory. I then connected them all and created a data path for a single cycle processor with a control unit. </p>
+                    </div>
+                </div>
+                
+            </div>
+        <body>
+
+        <div class="foot">&copy; 2022 Ethan Ting</div>
+    </div>
+    
+</div>
+
+<script src="functions.js"></script>
+
+</html>
